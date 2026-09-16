@@ -198,20 +198,32 @@ export default function Invoice() {
         }
       `}</style>
 
-      <div className="sticky top-0 z-50 print:hidden">
+      {/* <div className="sticky top-0 z-50 print:hidden">
         <div className="bg-white/80 backdrop-blur-xl border-b border-stone-200 shadow-sm">
-          <div className="mx-auto max-w-[860px] flex items-center justify-end px-6 py-3">
+          <div className="flex items-center justify-end px-4 sm:px-6 py-3">
             <button
               onClick={handlePrint}
-              className="flex items-center gap-2 rounded-lg bg-gradient-to-r from-amber-700 to-amber-900 px-5 py-2 text-xs font-semibold text-white shadow-lg shadow-amber-900/20 transition-all duration-300 hover:shadow-amber-900/40 hover:scale-[1.03] active:scale-95 cursor-pointer"
+              className="flex items-center gap-2 rounded-lg bg-gradient-to-r from-amber-700 to-amber-900 px-4 sm:px-5 py-2 text-xs font-semibold text-white shadow-lg shadow-amber-900/20 transition-all duration-300 hover:shadow-amber-900/40 hover:scale-[1.03] active:scale-95 cursor-pointer whitespace-nowrap"
             >
-              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
               </svg>
               Print / PDF
             </button>
           </div>
         </div>
+      </div> */}
+
+            <div className="fixed top-3 right-3 sm:top-4 sm:right-4 z-50 print:hidden">
+        <button
+          onClick={handlePrint}
+          className="flex items-center gap-2 rounded-lg bg-gradient-to-r from-amber-700 to-amber-900 px-4 sm:px-5 py-2 text-xs font-semibold text-white shadow-lg shadow-amber-900/20 transition-all duration-300 hover:shadow-amber-900/40 hover:scale-[1.03] active:scale-95 cursor-pointer whitespace-nowrap"
+        >
+          <svg className="h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+          </svg>
+          Print / PDF
+        </button>
       </div>
 
       {/* Hidden measurement rig — real DOM, off-screen, used once to compute exact heights */}
