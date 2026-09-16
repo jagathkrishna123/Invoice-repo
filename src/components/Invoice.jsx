@@ -156,31 +156,24 @@ export default function Invoice() {
         {/* CUSTOMER + INVOICE INFORMATION */}
         <div className="invoice-information">
           {/* CUSTOMER */}
-          <div className="customer-section">
-            <div className="customer-row">
-              <span className="label">To :</span>
+<div className="customer-section"> 
+      <div className="customer-row"> 
+        <span className="label">To :</span> 
+        <span className="customer-name">{customer.name}</span> 
+      </div> 
 
-              <span className="customer-name">{customer.name}</span>
-            </div>
+      <div className="customer-address"> 
+        {customer.address && <div>{customer.address}</div>} 
+        {customer.area && <div>{customer.area}</div>} 
+        {customer.city && <div>{customer.city}</div>} 
+        {customer.phone && <div>{customer.phone}.</div>} 
+      </div> 
 
-            <div className="customer-address">
-              <div>{customer.address}</div>
-
-              <div>{customer.area}</div>
-
-              <div>{customer.city}</div>
-
-              <div>{customer.phone}</div>
-            </div>
-
-            {customer.trn && (
-              <div className="customer-trn">
-                <span className="label">TRN:</span>
-
-                <span>{customer.trn}</span>
-              </div>
-            )}
-          </div>
+      <div className="customer-trn"> 
+        <span className="label">TRN:</span> 
+        <span>{customer.trn || ''}</span> 
+      </div> 
+    </div>
 
           {/* VERTICAL DIVIDER */}
           <div className="vertical-divider" />
