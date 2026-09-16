@@ -34,7 +34,6 @@ items: [
  { slNo: 1, barcode: "6658135482532", description: "3pcs bed sheet set - King Size", hsCode: "6302", countryOfOrigin: "China", qty: 4, price: 33.33, taxableValue: 133.33, vat: 6.67, amount: 14000.0 },
   { slNo: 2, barcode: "6658135482549", description: "Premium cushion cover set (4pcs)", hsCode: "6304", countryOfOrigin: "India", qty: 6, price: 47.62, taxableValue: 285.71, vat: 14.29, amount: 300.0 },
   { slNo: 3, barcode: "6658135482556", description: "Luxury bath towel - Large", hsCode: "6302", countryOfOrigin: "Turkey", qty: 10, price: 28.57, taxableValue: 285.71, vat: 14.29, amount: 300.0 },
-  
 ],
   summary: {
     totalInclVat: 3698.0,
