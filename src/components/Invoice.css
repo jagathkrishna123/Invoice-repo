@@ -492,9 +492,13 @@
            BOTTOM
         ================================================= */
 
-        .bottom-wrapper {
-          margin-top: auto;
-        }
+
+
+        .page-bottom-group {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+}
 
         .bottom-block {
           width: 100%;
@@ -697,7 +701,7 @@
         }
 
 .invoice-footer {
-  margin-top: auto;
+  margin-top: 0;
   padding: 8px 24px 12px 24px;
 
   font-size: 8px;
