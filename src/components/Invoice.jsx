@@ -308,6 +308,7 @@ export default function Invoice() {
   const BottomBlock = () => {
     return (
       <div className="bottom-block">
+        <div className="section-line totals-top-line" />
         {/* SUMMARY */}
         <div className="summary-section">
           {/* LEFT */}
@@ -326,53 +327,59 @@ export default function Invoice() {
           </div>
 
           {/* RIGHT */}
-          <div className="totals-section">
-            <div className="total-row">
-              <span>Total (Incl VAT)</span>
+<div className="totals-section">
 
-              <span className="colon-total">:</span>
+  <div className="total-row">
+    <span>Total (Incl VAT)</span>
 
-              <span className="total-value">
-                {Number(summary.total).toFixed(2)}              </span>
-            </div>
+    <span className="colon-total">:</span>
 
-            <div className="total-row">
-              <span>Discount</span>
+    <span className="total-value">
+      {Number(summary.totalInclVat).toFixed(2)}
+    </span>
+  </div>
 
-              <span className="colon-total">:</span>
+  <div className="total-row">
+    <span>Discount</span>
 
-              <span className="total-value">
-                {Number(summary.discount).toFixed(2)}              </span>
-            </div>
+    <span className="colon-total">:</span>
 
-            <div className="total-row">
-              <span>SubTotal (Excl. VAT)</span>
+    <span className="total-value">
+      {Number(summary.discount).toFixed(2)}
+    </span>
+  </div>
 
-              <span className="colon-total">:</span>
+  <div className="total-row">
+    <span>SubTotal (Excl. VAT)</span>
 
-              <span className="total-value">
-                {Number(summary.subTotal).toFixed(2)}              </span>
-            </div>
+    <span className="colon-total">:</span>
 
-            <div className="total-row">
-              <span>Total VAT</span>
+    <span className="total-value">
+      {Number(summary.subtotalExclVat).toFixed(2)}
+    </span>
+  </div>
 
-              <span className="colon-total">:</span>
+  <div className="total-row">
+    <span>Total VAT</span>
 
-              <span className="total-value">
-                {Number(summary.vat).toFixed(2)}             </span>
-            </div>
+    <span className="colon-total">:</span>
 
-            {/* NET AMOUNT */}
-            <div className="net-amount-row">
-              <span className="net-label">Net Amount</span>
+    <span className="total-value">
+      {Number(summary.totalVat).toFixed(2)}
+    </span>
+  </div>
 
-              <span className="net-colon">:</span>
+  <div className="net-amount-row">
+    <span className="net-label">Net Amount</span>
 
-              <span className="net-value">
-                {Number(summary.netAmount).toFixed(2)}             </span>
-            </div>
-          </div>
+    <span className="net-colon">:</span>
+
+    <span className="net-value">
+      {Number(summary.netAmount).toFixed(2)}
+    </span>
+  </div>
+
+</div>
         </div>
 
         {/* LINE */}
