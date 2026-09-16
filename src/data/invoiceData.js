@@ -41,24 +41,10 @@ const invoiceData = {
   { slNo: 8, barcode: "6658135482600", description: "Cotton table runner - 180cm", hsCode: "6302", countryOfOrigin: "India", qty: 5, price: 19.05, taxableValue: 95.24, vat: 4.76, amount: 100.0 },
   { slNo: 9, barcode: "6658135482617", description: "Silk pillowcase set (2pcs)", hsCode: "6302", countryOfOrigin: "China", qty: 6, price: 38.10, taxableValue: 228.57, vat: 11.43, amount: 240.0 },
   { slNo: 10, barcode: "6658135482624", description: "Woven storage basket - Large", hsCode: "4602", countryOfOrigin: "Vietnam", qty: 4, price: 23.81, taxableValue: 95.24, vat: 4.76, amount: 100.0 },
-  { slNo: 11, barcode: "6658135482631", description: "Aroma diffuser with oils set", hsCode: "8516", countryOfOrigin: "China", qty: 3, price: 76.19, taxableValue: 228.57, vat: 11.43, amount: 240.0 },
-  { slNo: 12, barcode: "6658135482648", description: "Embroidered napkin set (6pcs)", hsCode: "6302", countryOfOrigin: "Egypt", qty: 5, price: 28.57, taxableValue: 142.86, vat: 7.14, amount: 150.0 },
-  { slNo: 13, barcode: "6658135482655", description: "Bamboo bath mat", hsCode: "4601", countryOfOrigin: "Indonesia", qty: 4, price: 33.33, taxableValue: 133.33, vat: 6.67, amount: 140.0 },
-  { slNo: 14, barcode: "6658135482662", description: "Wall art canvas print - Abstract", hsCode: "9701", countryOfOrigin: "UAE", qty: 2, price: 119.05, taxableValue: 238.10, vat: 11.90, amount: 250.0 },
-  { slNo: 15, barcode: "6658135482679", description: "Linen blend duvet cover - Queen", hsCode: "6302", countryOfOrigin: "Portugal", qty: 3, price: 161.90, taxableValue: 485.71, vat: 24.29, amount: 510.0 },
-  { slNo: 16, barcode: "6658135482686", description: "Rattan serving tray - Oval", hsCode: "4602", countryOfOrigin: "Philippines", qty: 6, price: 14.29, taxableValue: 85.71, vat: 4.29, amount: 90.0 },
+
 
   // New items
-  { slNo: 17, barcode: "6658135482693", description: "Microfiber cleaning cloth set (6pcs)", hsCode: "6307", countryOfOrigin: "India", qty: 10, price: 9.52, taxableValue: 95.24, vat: 4.76, amount: 100.0 },
-  { slNo: 18, barcode: "6658135482709", description: "Premium table lamp - Modern", hsCode: "9405", countryOfOrigin: "China", qty: 3, price: 142.86, taxableValue: 428.57, vat: 21.43, amount: 450.0 },
-  { slNo: 19, barcode: "6658135482716", description: "Handwoven cotton rug - 5x7ft", hsCode: "5705", countryOfOrigin: "Turkey", qty: 2, price: 238.10, taxableValue: 476.19, vat: 23.81, amount: 500.0 },
-  { slNo: 20, barcode: "6658135482723", description: "Stainless steel cookware set", hsCode: "7323", countryOfOrigin: "India", qty: 1, price: 428.57, taxableValue: 428.57, vat: 21.43, amount: 450.0 },
-  { slNo: 21, barcode: "6658135482730", description: "Decorative ceramic bowl set (3pcs)", hsCode: "6912", countryOfOrigin: "Portugal", qty: 4, price: 52.38, taxableValue: 209.52, vat: 10.48, amount: 220.0 },
-  { slNo: 22, barcode: "6658135482747", description: "Cotton kitchen towel set (4pcs)", hsCode: "6302", countryOfOrigin: "Egypt", qty: 8, price: 17.86, taxableValue: 142.86, vat: 7.14, amount: 150.0 },
-  { slNo: 23, barcode: "6658135482754", description: "Wooden photo frame - Large", hsCode: "4414", countryOfOrigin: "Indonesia", qty: 5, price: 38.10, taxableValue: 190.48, vat: 9.52, amount: 200.0 },
-  { slNo: 24, barcode: "6658135482761", description: "Luxury scented reed diffuser", hsCode: "3307", countryOfOrigin: "UAE", qty: 6, price: 31.75, taxableValue: 190.48, vat: 9.52, amount: 200.0 },
-  { slNo: 25, barcode: "6658135482778", description: "Faux indoor plant - Decorative", hsCode: "6702", countryOfOrigin: "Vietnam", qty: 3, price: 80.95, taxableValue: 242.86, vat: 12.14, amount: 255.0 },
-  { slNo: 26, barcode: "6658135482785", description: "Premium fleece blanket - King", hsCode: "6301", countryOfOrigin: "China", qty: 4, price: 71.43, taxableValue: 285.71, vat: 14.29, amount: 300.0 },
+
 ],
   summary: {
     totalInclVat: 3698.0,
