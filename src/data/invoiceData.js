@@ -37,44 +37,7 @@ items: [
 
   { slNo: 3, barcode: "6658135482556", description: "Luxury bath towel - Large", hsCode: "6302", countryOfOrigin: "Turkey", qty: 10, price: 28.57, taxableValue: 285.71, vat: 14.29, amount: 300.0 },
 
-  { slNo: 4, barcode: "6658135482563", description: "Decorative throw blanket", hsCode: "6301", countryOfOrigin: "Portugal", qty: 2, price: 95.24, taxableValue: 190.48, vat: 9.52, amount: 200.0 },
-
-  { slNo: 5, barcode: "6658135482570", description: "Scented candle set (3pcs)", hsCode: "3406", countryOfOrigin: "UAE", qty: 8, price: 15.24, taxableValue: 121.90, vat: 6.10, amount: 128.0 },
-
-  { slNo: 6, barcode: "6658135482587", description: "Velvet curtain panel - 2.5m", hsCode: "6303", countryOfOrigin: "India", qty: 4, price: 142.86, taxableValue: 571.43, vat: 28.57, amount: 600.0 },
-
-  { slNo: 7, barcode: "6658135482594", description: "Ceramic vase - Handcrafted", hsCode: "6913", countryOfOrigin: "Morocco", qty: 3, price: 66.67, taxableValue: 200.0, vat: 10.0, amount: 210.0 },
-
-  { slNo: 8, barcode: "6658135482600", description: "Cotton table runner - 180cm", hsCode: "6302", countryOfOrigin: "India", qty: 5, price: 19.05, taxableValue: 95.24, vat: 4.76, amount: 100.0 },
-
-  { slNo: 9, barcode: "6658135482617", description: "Silk pillowcase set (2pcs)", hsCode: "6302", countryOfOrigin: "China", qty: 6, price: 38.10, taxableValue: 228.57, vat: 11.43, amount: 240.0 },
-
-  { slNo: 10, barcode: "6658135482624", description: "Woven storage basket - Large", hsCode: "4602", countryOfOrigin: "Vietnam", qty: 4, price: 23.81, taxableValue: 95.24, vat: 4.76, amount: 100.0 },
-
-  { slNo: 11, barcode: "6658135482570", description: "Scented candle set (3pcs)", hsCode: "3406", countryOfOrigin: "UAE", qty: 8, price: 15.24, taxableValue: 121.90, vat: 6.10, amount: 128.0 },
-
-  { slNo: 12, barcode: "6658135482587", description: "Velvet curtain panel - 2.5m", hsCode: "6303", countryOfOrigin: "India", qty: 4, price: 142.86, taxableValue: 571.43, vat: 28.57, amount: 600.0 },
-
-  { slNo: 13, barcode: "6658135482594", description: "Ceramic vase - Handcrafted", hsCode: "6913", countryOfOrigin: "Morocco", qty: 3, price: 66.67, taxableValue: 200.0, vat: 10.0, amount: 210.0 },
-
-  { slNo: 14, barcode: "6658135482600", description: "Cotton table runner - 180cm", hsCode: "6302", countryOfOrigin: "India", qty: 5, price: 19.05, taxableValue: 95.24, vat: 4.76, amount: 100.0 },
-
-  { slNo: 15, barcode: "6658135482617", description: "Silk pillowcase set (2pcs)", hsCode: "6302", countryOfOrigin: "China", qty: 6, price: 38.10, taxableValue: 228.57, vat: 11.43, amount: 240.0 },
-
-  { slNo: 16, barcode: "6658135482624", description: "Woven storage basket - Large", hsCode: "4602", countryOfOrigin: "Vietnam", qty: 4, price: 23.81, taxableValue: 95.24, vat: 4.76, amount: 100.0 },
-
-  { slNo: 17, barcode: "6658135482570", description: "Scented candle set (3pcs)", hsCode: "3406", countryOfOrigin: "UAE", qty: 8, price: 15.24, taxableValue: 121.90, vat: 6.10, amount: 128.0 },
-
-  { slNo: 18, barcode: "6658135482587", description: "Velvet curtain panel - 2.5m", hsCode: "6303", countryOfOrigin: "India", qty: 4, price: 142.86, taxableValue: 571.43, vat: 28.57, amount: 600.0 },
-
-  { slNo: 19, barcode: "6658135482594", description: "Ceramic vase - Handcrafted", hsCode: "6913", countryOfOrigin: "Morocco", qty: 3, price: 66.67, taxableValue: 200.0, vat: 10.0, amount: 210.0 },
-
-  { slNo: 20, barcode: "6658135482600", description: "Cotton table runner - 180cm", hsCode: "6302", countryOfOrigin: "India", qty: 5, price: 19.05, taxableValue: 95.24, vat: 4.76, amount: 100.0 },
-
-  { slNo: 21, barcode: "6658135482617", description: "Silk pillowcase set (2pcs)", hsCode: "6302", countryOfOrigin: "China", qty: 6, price: 38.10, taxableValue: 228.57, vat: 11.43, amount: 240.0 },
-
-  { slNo: 22, barcode: "6658135482624", description: "Woven storage basket - Large", hsCode: "4602", countryOfOrigin: "Vietnam", qty: 4, price: 23.81, taxableValue: 95.24, vat: 4.76, amount: 100.0 },
-
+ 
 
 ],
   summary: {

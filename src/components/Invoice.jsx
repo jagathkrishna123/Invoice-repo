@@ -11,21 +11,7 @@ const PAGE_HEIGHT = 842;
 export default function Invoice() {
   const { company, invoice, customer, items, summary, terms } = invoiceData;
 
-const calculatedSubtotal = items.reduce(
-  (total, item) => total + Number(item.taxableValue || 0),
-  0
-);
 
-const calculatedVat = items.reduce(
-  (total, item) => total + Number(item.vat || 0),
-  0
-);
-
-const calculatedTotal = calculatedSubtotal + calculatedVat;
-
-const calculatedDiscount = Number(summary.discount || 0);
-
-const calculatedNetAmount = calculatedTotal - calculatedDiscount;
 
   const [pages, setPages] = useState(null);
 
@@ -354,7 +340,7 @@ const calculatedNetAmount = calculatedTotal - calculatedDiscount;
               <span className="colon-total">:</span>
 
               <span className="total-value">
-{calculatedTotal.toFixed(2)}              </span>
+                {Number(summary.total).toFixed(2)}              </span>
             </div>
 
             <div className="total-row">
@@ -363,7 +349,7 @@ const calculatedNetAmount = calculatedTotal - calculatedDiscount;
               <span className="colon-total">:</span>
 
               <span className="total-value">
-{calculatedDiscount.toFixed(2)}              </span>
+                {Number(summary.discount).toFixed(2)}              </span>
             </div>
 
             <div className="total-row">
@@ -372,7 +358,7 @@ const calculatedNetAmount = calculatedTotal - calculatedDiscount;
               <span className="colon-total">:</span>
 
               <span className="total-value">
-{calculatedSubtotal.toFixed(2)}              </span>
+                {Number(summary.subTotal).toFixed(2)}              </span>
             </div>
 
             <div className="total-row">
@@ -381,7 +367,7 @@ const calculatedNetAmount = calculatedTotal - calculatedDiscount;
               <span className="colon-total">:</span>
 
               <span className="total-value">
-{calculatedVat.toFixed(2)}              </span>
+                {Number(summary.vat).toFixed(2)}             </span>
             </div>
 
             {/* NET AMOUNT */}
@@ -391,7 +377,7 @@ const calculatedNetAmount = calculatedTotal - calculatedDiscount;
               <span className="net-colon">:</span>
 
               <span className="net-value">
-{calculatedNetAmount.toFixed(2)}              </span>
+                {Number(summary.netAmount).toFixed(2)}             </span>
             </div>
           </div>
         </div>
@@ -513,19 +499,19 @@ const calculatedNetAmount = calculatedTotal - calculatedDiscount;
               )}
 
               {/* BOTTOM */}
-             {/* BOTTOM + FOOTER GROUP (always pinned to bottom of page) */}
-<div className="page-bottom-group">
-  {page.showBottom && (
-    <div className="bottom-wrapper">
-      <BottomBlock />
-    </div>
-  )}
+              {/* BOTTOM + FOOTER GROUP (always pinned to bottom of page) */}
+              <div className="page-bottom-group">
+                {page.showBottom && (
+                  <div className="bottom-wrapper">
+                    <BottomBlock />
+                  </div>
+                )}
 
-  <InvoiceFooter
-    pageNumber={pageIndex + 1}
-    totalPages={pages.length}
-  />
-</div>
+                <InvoiceFooter
+                  pageNumber={pageIndex + 1}
+                  totalPages={pages.length}
+                />
+              </div>
             </div>
           ))}
       </div>
